@@ -1,0 +1,98 @@
+.bg-discord{
+    background-color: #5865F200;
+}
+.bg-dark{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,8,30,0.7),rgba(4,8,30,0.7)),url(asset/port\ web.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    padding: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.container-1{
+    margin-bottom: 50px;
+}
+.bg-grey{
+    background-color: #23272aB3;
+}
+.card{
+    border-width: 0px;
+    border-radius: 25px;
+    color: #ffffff;
+    margin-bottom: 20px
+}
+.brand-line{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    color: #ffffff;
+}
+.title-line{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 25px;
+    color: #ffffff;
+    margin-left: 40px;
+}
+.card-img-top{
+    padding: 0px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.btn-discord{
+    color: #ffffff;
+    background-color: #5865F2;
+    border-color: #5865F2;
+}
+.btn-discord:hover{
+    color: #ffffff;
+    background-color: #7289DA;
+    border-color: #7289DA;
+}
+.big-text{
+    font-size: 36px;
+}
+.card-text{
+    font-size: 16px;
+}
+input{
+    margin: 25px;
+    border-color: #5865F2;
+    border-width: 5px;
+    color: #5865F2;
+}
+.form-control{
+    border-color: #5865F2;
+    border-width: 2px;
+    border-radius: 25px;
+    color: #5865F2;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.form-control:active{
+    border-color: #5865F2;
+    border-width: 3px;
+    border-radius: 25px;
+    color: #5865F2;
+}
+.list-group{
+    list-style: none;
+    background-color: #23272a00;
+}
+.list-group-item{
+    list-style: none;
+    background-color: #343A4000;
+    border-width: 0px;
+}
+.date{
+    font-size: 12px;
+}
