@@ -1,5 +1,7 @@
 # Elina 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c241873b-9af9-4c1b-a727-a571556fd35b/deploy-status)](https://app.netlify.com/sites/elina-bot/deploys)
+
 This is a website forked from a template made for my discord bot named Elina 
 
 ## Elina website src codes
