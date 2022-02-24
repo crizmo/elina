@@ -100,7 +100,17 @@ input {
 
 /* Cmdbs.html */
 
-/* transparent background color  */
+/* help list */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-help-list {
+  padding-left: 120px;
+}
+
+/* background + body  */
 .card-body {
   background-color: #23272ab3;
   border-radius: 20px;
