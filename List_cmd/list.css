@@ -1,0 +1,55 @@
+/* Affection list */
+
+.back-btn {
+  background-color: #5865f2;
+  border-color: #e8e8ee;
+  border-width: 2px;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-left: 43%;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.back-btn a {
+  color: #ffffff;
+}
+
+.back-btn:hover {
+  background-color: #7289da;
+  border-color: #7289da;
+}
+
+/* Economy list */
+
+.eco-img {
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.eco-img-1,
+.eco-img-2,
+.eco-img-3 {
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.eco-img-1 {
+  width: 317px;
+  height: 446px;
+}
+
+.eco-img-2 {
+  width: 521px;
+  height: 446px;
+}
+
+.eco-img-3 {
+  width: 420px;
+  height: 446px;
+}
