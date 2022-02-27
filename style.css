@@ -135,3 +135,9 @@ tr {
 .table code {
   color: #5865f2;
 }
+
+@media screen and (max-width: 768px) {
+  .nav-help-list {
+    padding-left: 10px;
+  }
+}
