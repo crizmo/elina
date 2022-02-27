@@ -2,12 +2,14 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c241873b-9af9-4c1b-a727-a571556fd35b/deploy-status)](https://app.netlify.com/sites/elina-bot/deploys)
 
-This is a website forked from a template made for my discord bot named Elina 
+This is a website made from a template made for my discord bot named Elina
+Elina website is not hosted on netlify too :D
 
 ## Elina website src codes
 
 - This is a open-source website for everyone to use! Dont forget to star and fork :D
-- Elina is a discord bot , made using discord.js . 
+- Elina is a discord bot , made using discord.js .
+- The site is under constant development depending on the updates on the bot. 
 
 ## For developers
 
