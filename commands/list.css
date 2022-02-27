@@ -53,3 +53,20 @@
   width: 420px;
   height: 446px;
 }
+
+@media screen and (max-width: 768px) {
+  .eco-img-1,
+  .eco-img-2,
+  .eco-img-3 {
+    width: 75%;
+    height: auto;
+  }
+}
+/* For all */
+
+@media screen and (max-width: 768px) {
+  .back-btn {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
