@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/style.css" media="screen" />
+    <link rel="stylesheet" href="/commands/list.css" media="screen" />
+
+    <!-- Favicons -->
+    <!-- Change the favicon.png file to the image you wish to use as the favicon -->
+    <link rel="icon" type="image/png" href="/asset/favicon.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/asset/favicon.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/asset/favicon.png" sizes="96x96" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/asset/favicon.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/asset/favicon.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/asset/favicon.png" />
+
+    <!-- Bootstrap JS | JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- SEO tools -->
+    <title>Commands | Elina Bot Website</title>
+    <meta name="description"
+        content="Elina is a Multi-purpose discord bot, with constant updates and active community. She will make sure you'll have a great time using her!" />
+    <meta name="keywords" content="discord multi-purpose bot!" />
+    <!--Add additional SEO meta data here!-->
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="\Commands | DrunkBetch Website!" />
+    <meta property="og:url" content="https://discord.gg/Ecy6WpEZsD" />
+    <meta property="og:image" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Elina bot official website!" />
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-md bg-discord navbar-dark">
+        <div class="container">
+            <!-- Bot/Brand Name -->
+            <a class="navbar-brand" href="/index.html"><b>Elina</b></a>
+
+            <!-- Bootstrap Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- This link invites Criz, Change the client id to your bot's id -->
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank"
+                            href="https://discord.com/oauth2/authorize?client_id=842397001954230303&permissions=0&scope=bot">Invite
+                            to Server</a>
+                    </li>
+                    <!-- Change link to your support server link -->
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://discord.gg/Ecy6WpEZsD">Support Server</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/commands.html">Commands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/update-logs.html">Update Logs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="genshin">
+        <p></p>
+        <div class="row">
+            <div class="col-12">
+                <div class="card-cmd">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Genshin commands !
+                            <p></p>
+                        </h4>
+                        <h6 class="card-subtitle">
+                            Genshin game info / stats commands !
+                            <p></p>
+                        </h6>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th width="20%">Command Name</th>
+                                        <th width="30%">Usage</th>
+                                        <th width="35%">Description</th>
+                                        <th width="15%">Aliases</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Genshin Main</td>
+                                        <td><code>=genshin</code></td>
+                                        <td>
+                                            Get more information of the genshin commands !
+                                        </td>
+                                        <td>=help-genshin</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Artifacts</td>
+                                        <td><code>=gen-arti {artifact_name} <br>/gen-artifact {artifact_name}</code>
+                                        </td>
+                                        <td>
+                                            Get more information of the artifact in the game ! <br>
+                                            <b>Note:</b> If the arti has a space in the name replace it with '-' <br>
+                                            <b>Artifacts:</b> <a
+                                                href="https://github.com/genshindev/api/tree/mistress/assets/data/artifacts">Artifacts
+                                                you can search !</a>
+                                        </td>
+                                        <td>=genshin-artifacts <br>=gen-artifacts</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Characters</td>
+                                        <td><code>=gen-char {character_name} <br>/gen-character {character_name}</code>
+                                        </td>
+                                        <td>
+                                            Get more information of the character in the game ! <br>
+                                            <b>Note:</b> If the char has a space in the name replace it with '-' <br>
+                                            <b>Characters:</b> <a
+                                                href="https://github.com/genshindev/api/tree/mistress/assets/data/characters">Characters
+                                                you can search !</a>
+                                        </td>
+                                        <td>=genshin-character <br>=gen-character</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Elements</td>
+                                        <td><code>=gen-el {element_name} <br>/gen-element {element_name}</code>
+                                        </td>
+                                        <td>
+                                            Get more information of the element in the game ! <br>
+                                            <b>Elements:</b> <code> anemo cryo dendro electro geo hydro pyro </code>
+                                        </td>
+                                        <td>=genshin-elements <br>=gen-elements</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nations</td>
+                                        <td><code>=gen-nations {nation_name} <br>/gen-nation {nation_name}</code>
+                                        </td>
+                                        <td>
+                                            Get more information of the nation in the game ! <br>
+                                            <b>Nations:</b> <code> mondstadt liyue inazuma </code>
+                                        </td>
+                                        <td>=genshin-nations <br>=gen-nat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Weapons</td>
+                                        <td><code>=gen-weapon {nation_name} <br>/gen-weapon {nation_name}</code>
+                                        </td>
+                                        <td>
+                                            Get more information of the weapon in the game ! <br>
+                                            <b>Note:</b> If the weapon has a space in the name replace it with '-' <br>
+                                            <b>Weapons:</b> <a
+                                                href="https://github.com/genshindev/api/tree/mistress/assets/data/weapon">Weapons
+                                                you can search !</a>
+                                        </td>
+                                        <td>=genshin-weapon <br>=gen-wp</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="back-btn">
+        <a href="/commands.html">Back to Main Commands list</a>
+    </button>
+</body>
+
+</html>
