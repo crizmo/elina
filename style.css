@@ -107,7 +107,7 @@ html {
 }
 
 .nav-help-list {
-  padding-left: 120px;
+  padding-left: 200px;
 }
 
 /* background + body  */
@@ -139,5 +139,11 @@ tr {
 @media screen and (max-width: 768px) {
   .nav-help-list {
     padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .nav-help-list {
+    padding-left: 60px;
   }
 }
