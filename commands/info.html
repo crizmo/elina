@@ -86,6 +86,10 @@
             <div class="col-12">
                 <div class="card-cmd">
                     <div class="card-body">
+                        <div class="row">
+                            <input class="form-control" id="myInput" type="text"
+                                placeholder="Search Command by name...">
+                        </div>
                         <h4 class="card-title">
                             Info commands !
                             <p></p>
@@ -104,7 +108,7 @@
                                         <th width="15%">Aliases</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody id="commands">
                                     <tr>
                                         <td>Anime</td>
                                         <td><code>=anime {anime_name} <br>/anime {anime_name}</code></td>
@@ -222,6 +226,16 @@
                             </table>
                         </div>
                     </div>
+                    <script>
+                        $(document).ready(function () {
+                            $("#myInput").on("keyup", function () {
+                                var value = $(this).val().toLowerCase();
+                                $("#commands tr").filter(function () {
+                                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                                });
+                            });
+                        });
+                    </script>
                 </div>
             </div>
         </div>
