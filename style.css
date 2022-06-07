@@ -110,6 +110,10 @@ html {
   padding-left: 200px;
 }
 
+.help-list {
+  padding-left: 200px;
+}
+
 /* background + body  */
 .card-body {
   background-color: #23272ab3;
@@ -136,14 +140,23 @@ tr {
   color: #5865f2;
 }
 
+@media screen and (max-width: 1850px) {
+  .nav-help-list {
+    padding-left: 60px;
+  }
+
+  .help-list {
+    padding-left: 100px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .nav-help-list {
     padding-left: 10px;
   }
-}
 
-@media screen and (max-width: 1450px) {
-  .nav-help-list {
-    padding-left: 60px;
+  .help-list {
+    padding-left: 100px;
   }
 }
+
